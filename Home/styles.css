@@ -32,17 +32,17 @@ nav ul li {
 }
   
 nav ul li a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1em;
 }
 
 nav ul li a:hover {
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 .book-now-button {
-    background-color: #2c2c2c;
+    background-color: #e9c708d0;
     display: flex;
     justify-content: center;
     align-items: center;
