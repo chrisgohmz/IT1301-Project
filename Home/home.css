@@ -139,17 +139,17 @@ nav ul li a:hover {
 }
 
 .rooms-button {
-    font-family: 'Roboto', sans-serif;
-    background-color: silver;
+    background-color: rgba(0, 0, 0, 0.788);
     padding: 1%;
     margin: 2%;
     text-decoration: none;
     font-size: 2em;
     color: azure;
+    font-family: 'Merriweather', serif;
 }
 
 .rooms-button:hover {
-    color: black;
+    color: rgb(255, 230, 0);
 }
 
 .dining-image {
@@ -179,8 +179,8 @@ nav ul li a:hover {
 }
 
 .dining-button {
-    font-family: 'Roboto', sans-serif;
-    background-color: silver;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(148, 126, 0, 0.788);
     padding: 1%;
     margin: 2%;
     text-decoration: none;
@@ -210,7 +210,7 @@ nav ul li a:hover {
 }
 
 .amenities-button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     background-color: silver;
     padding: 1%;
     margin: 2%;
