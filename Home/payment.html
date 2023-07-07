@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Continental - Payment Page</title>
+    <link rel="stylesheet" type="text/css" href="lmao.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="../../images/logo.png" alt="Continental Hotel logo">
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="rooms.html">ROOMS</a></li>
+          <li><a href="dining.html">DINING</a></li>
+          <li><a href="amenities.html">AMENITIES</a></li>
+          <li><a href="member.html">MEMBERS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="book-now-button">
+          <a href="../Booking/booking.html">BOOK NOW</a>
+        </div>
+      </nav>
+    
+    <form id="payment-form">
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number" maxlength="16" required>
+        
+        <label for="card-name">Cardholder Name:</label>
+        <input type="text" id="card-name" name="card-name" required>
+        
+        <label for="expiration-date">Expiration Date:</label>
+        <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YY" required>
+        
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" maxlength="3" required>
+        
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>

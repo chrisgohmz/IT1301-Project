@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Continental - Booking Page</title>
+    <link rel="stylesheet" type="text/css" href="booking.css">
+    <script src="booking.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <img src="../../images/logo.png" alt="Continental Hotel logo">
+    <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="rooms.html">ROOMS</a></li>
+      <li><a href="dining.html">DINING</a></li>
+      <li><a href="amenities.html">AMENITIES</a></li>
+      <li><a href="member.html">MEMBERS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="book-now-button">
+      <a href="booking.html">BOOK NOW</a>
+    </div>
+  </nav>
+    <form action="lmao.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="people">Number of People:</label>
+        <input type="number" id="people" name="people" min="1" max="10" required>
+        
+        <label for="room">Room:</label>
+        <select id="room" name="room" required>
+            <option value="" disabled selected>Select a Room</option>
+            <option value="deluxe">Classic Chamber</option>
+            <option value="executive">Executive Suite</option>
+            <option value="luxury">Opulent Manor</option>
+            <option value="premium">Grandiose Retreat</option>
+        </select>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    <div id="room-images">
+        <div class="room-image" id="deluxe-image"></div>
+        <div class="room-image" id="executive-image"></div>
+        <div class="room-image" id="luxury-image"></div>
+        <div class="room-image" id="premium-image"></div>
+    </div>
+</body>
+</html>
