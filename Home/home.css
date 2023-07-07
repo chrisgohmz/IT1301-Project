@@ -59,7 +59,7 @@ nav ul li a:hover {
     color: white;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: 'Merriweather', serif;;
+    font-family: 'Merriweather', serif;
 }
 
 .book-now-button a:hover {
@@ -90,7 +90,7 @@ nav ul li a:hover {
 .hero-book-now-button {
     background-color: rgba(148, 126, 0, 0.788);
     padding: 1%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 2em;
     text-decoration: none;
     color: azure;
