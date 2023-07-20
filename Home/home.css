@@ -51,21 +51,22 @@ nav ul li a:hover {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.book-now-button a {
+ }
+ 
+ .book-now-button a {
     text-decoration: none;
     font-size: 1em;
     color: white;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: 'Merriweather', serif;
-}
+    font-family: 'Merriweather', serif;;
+ }
 
 .book-now-button a:hover {
     color: rgb(255, 230, 0);
+    justify-content: center;
 }
-  
+
 .hero-section img {
     width: 100%;
 }
@@ -98,6 +99,16 @@ nav ul li a:hover {
 
 .hero-book-now-button:hover {
     color: rgb(0, 0, 0);
+}
+
+.sign-in {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #2c2c2c;
+}
+
+.sign-in:hover{
+    color: rgb(255, 230, 0);
 }
 
 .grid-container {
@@ -211,7 +222,7 @@ nav ul li a:hover {
 
 .amenities-button {
     font-family: 'Merriweather', serif;
-    background-color: silver;
+    background-color: rgba(0, 0, 0, 0.788);
     padding: 1%;
     margin: 2%;
     text-decoration: none;
@@ -220,7 +231,7 @@ nav ul li a:hover {
 }
 
 .amenities-button:hover {
-    color: black;
+    color: rgb(255, 230, 0);
 }
 
 .amenities-image {
@@ -232,7 +243,7 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
 }
-  
+
 footer {
     font-family: 'Roboto', sans-serif;
     background-color: beige;
