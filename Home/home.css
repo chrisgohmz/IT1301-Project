@@ -123,6 +123,35 @@ nav ul li a:hover {
     row-gap: 2.5%;
 }
 
+.book {
+    padding: 40px 0;
+    background: white;
+    color: black;
+}
+
+.book h1 {
+    font-size:28 px;
+
+}
+.book h1 span {
+    margin-left: 45%;
+    font-size: larger;
+    color:black;
+}
+
+.book input{
+    padding: 20px;
+}
+
+.book input:nth-last-child(1){
+    background: goldenrod;
+    color: black;
+}
+.form {
+    margin-left: 30%;
+
+}
+
 .room-image {
     grid-area: room-image;
     overflow: hidden;
