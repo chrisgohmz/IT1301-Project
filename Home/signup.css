@@ -59,7 +59,7 @@ nav ul li a:hover {
    color: white;
    margin-left: 20px;
    margin-right: 20px;
-   font-family: 'Merriweather', serif;;
+   font-family: 'Merriweather', serif;
 }
 
 .book-now-button a:hover {
@@ -109,9 +109,10 @@ nav ul li a:hover {
    padding: 20px;
  }
  
- h1 {
+ .description {
    text-align: center;
    margin-bottom: 20px;
+   font-family: 'Crete Round', serif;
  }
  
  form {
@@ -120,7 +121,7 @@ nav ul li a:hover {
  }
  
  label {
-   font-weight: bold;
+   font-family: 'Merriweather', serif;
  }
  
  input {
@@ -129,7 +130,7 @@ nav ul li a:hover {
    font-size: 16px;
    border: 1px solid #ccc;
    border-radius: 4px;
- }
+}
 
  .submit {
    background-color: rgba(148, 126, 0, 0.788);
@@ -140,4 +141,9 @@ nav ul li a:hover {
    border-radius: 4px;
    cursor: pointer;
    transition: background-color 0.3s;
+   font-family: 'Merriweather', serif;
+ }
+
+ .submit:hover {
+   background-color: rgba(148, 126, 0, 0.432);
  }
