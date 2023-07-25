@@ -144,8 +144,9 @@ nav ul li a:hover {
 }
 
 .book input:nth-last-child(1){
-    background: goldenrod;
-    color: black;
+    background: rgba(148, 126, 0, 0.788);
+    color: rgb(255, 255, 255);
+    border-color: #cfb025;
 }
 .form {
     margin-left: 30%;
@@ -260,7 +261,7 @@ nav ul li a:hover {
 }
 
 .amenities-button:hover {
-    color: rgb(255, 230, 0);
+    color: rgba(148, 126, 0, 0.918);
 }
 
 .amenities-image {
@@ -273,14 +274,6 @@ nav ul li a:hover {
     height: 100%;
 }
 
-footer {
-    font-family: 'Roboto', sans-serif;
-    background-color: beige;
-    color: black;
-    padding: 1%;
-    text-align: center; 
-}
-  
 footer {
     font-family: 'Roboto', sans-serif;
     background-color: beige;
@@ -308,4 +301,9 @@ footer {
     margin-right: 25px;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
+ }
+
+ .fbutton {
+    text-decoration: none;
+    color: #000000;
  }

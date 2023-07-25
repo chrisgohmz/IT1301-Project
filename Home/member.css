@@ -80,12 +80,13 @@ nav ul li a:hover {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   background-color: rgba(0, 0, 0, 0.377);
+   background-color: rgba(0, 0, 0, 0.438);
    padding: 10px;
    color: white;
-   font-size: 39px;
+   font-size: 25px;
+   text-align: center;
    font-weight: bold;
-   font-family: 'Abril Fatface', cursive;;
+   font-family: 'Prata', sans-serif;
  }
  .grid-container {
    display: grid;
@@ -125,7 +126,6 @@ nav ul li a:hover {
 }
 .form {
    margin-left: 30%;
-
 }
 
 .room-image {
@@ -138,7 +138,7 @@ nav ul li a:hover {
    height: 100%;
 }
 
-.room-text {
+.loyality-text {
    grid-area: room-text;
    background-color: snow;
    display: flex;
@@ -149,23 +149,9 @@ nav ul li a:hover {
    overflow: hidden;
 }
 
-.room-text h2 {
+.loyality-text h2 {
    font-family: 'Antic Didone', serif;
    font-size: 2em;
-}
-
-.rooms-button {
-   background-color: rgba(0, 0, 0, 0.788);
-   padding: 1%;
-   margin: 2%;
-   text-decoration: none;
-   font-size: 2em;
-   color: azure;
-   font-family: 'Merriweather', serif;
-}
-
-.rooms-button:hover {
-   color: rgb(255, 230, 0);
 }
 
  .dining-image {
@@ -276,4 +262,10 @@ footer {
    margin-right: 25px;
    cursor: pointer;
    font-family: 'Raleway', sans-serif;
+   text-decoration: none;
+}
+
+.fbutton {
+   text-decoration: none;
+   color: #000000;
 }

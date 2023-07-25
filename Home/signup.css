@@ -64,19 +64,18 @@ nav ul li a:hover {
 
 .book-now-button a:hover {
    color: rgb(255, 230, 0);
+   justify-content: center;
 }
- 
+
 .hero-section img {
    width: 100%;
 }
 
-footer {
-   font-family: 'Roboto', sans-serif;
-   background-color: beige;
-   color: black;
-   padding: 1%;
-   text-align: center; 
-}
+ .container {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+ }
  
 .top-footer {
    background-color: rgba(148, 126, 0, 0.788); 
@@ -103,3 +102,42 @@ footer {
    text-decoration: none;
    color: #000000;
 }
+
+.container {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ 
+ h1 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ form {
+   display: grid;
+   grid-gap: 10px;
+ }
+ 
+ label {
+   font-weight: bold;
+ }
+ 
+ input {
+   width: 100%;
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+
+ .submit {
+   background-color: rgba(148, 126, 0, 0.788);
+   color: #fff;
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
