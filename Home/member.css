@@ -23,7 +23,6 @@ nav ul {
    list-style-type: none;
    display: flex;
    justify-content: center;
-   
 }
  
 nav ul li {
@@ -68,7 +67,7 @@ nav ul li a:hover {
 
 .container {
    position: relative;
-   width: 100%; /* Change this width to adjust the image size */
+   width: 100%;
  }
 
  .image {
@@ -81,10 +80,200 @@ nav ul li a:hover {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   background-color: rgba(0, 0, 0, 0.7); /* Change the opacity and color as needed */
+   background-color: rgba(0, 0, 0, 0.377);
    padding: 10px;
    color: white;
    font-size: 39px;
    font-weight: bold;
    font-family: 'Abril Fatface', cursive;;
  }
+ .grid-container {
+   display: grid;
+   grid-template-areas:
+    "room-image room-text"
+    "dining-text dining-image"
+    "amenities-image amenities-text";
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   margin: 2.5%;
+   row-gap: 2.5%;
+}
+
+.book {
+   padding: 40px 0;
+   background: white;
+   color: black;
+}
+
+.book h1 {
+   font-size:28 px;
+
+}
+.book h1 span {
+   margin-left: 45%;
+   font-size: larger;
+   color:black;
+}
+
+.book input{
+   padding: 20px;
+}
+
+.book input:nth-last-child(1){
+   background: goldenrod;
+   color: black;
+}
+.form {
+   margin-left: 30%;
+
+}
+
+.room-image {
+   grid-area: room-image;
+   overflow: hidden;
+}
+
+.room-image img {
+   width: 100%;
+   height: 100%;
+}
+
+.room-text {
+   grid-area: room-text;
+   background-color: snow;
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   overflow: hidden;
+}
+
+.room-text h2 {
+   font-family: 'Antic Didone', serif;
+   font-size: 2em;
+}
+
+.rooms-button {
+   background-color: rgba(0, 0, 0, 0.788);
+   padding: 1%;
+   margin: 2%;
+   text-decoration: none;
+   font-size: 2em;
+   color: azure;
+   font-family: 'Merriweather', serif;
+}
+
+.rooms-button:hover {
+   color: rgb(255, 230, 0);
+}
+
+ .dining-image {
+   grid-area: dining-image;
+   overflow: hidden;
+}
+
+.dining-image img {
+   width: 100%;
+   height: 100%;
+}
+ 
+.dining-text {
+   grid-area: dining-text;
+   background-color: snow;
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   overflow: hidden;
+}
+
+.dining-text h2 {
+   font-family: 'Antic Didone', serif;
+   font-size: 2em;
+}
+
+.dining-button {
+   font-family: 'Merriweather', serif;
+   background-color: rgba(148, 126, 0, 0.788);
+   padding: 1%;
+   margin: 2%;
+   text-decoration: none;
+   font-size: 2em;
+   color: azure;
+}
+
+.dining-button:hover {
+   color: black;
+}
+ 
+.amenities-text {
+   grid-area: amenities-text;
+   background-color: snow;
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
+   justify-content: center;
+   text-align: justify;
+   overflow: hidden;
+}
+
+.amenities-text h2 {
+   font-family: 'Antic Didone', serif;
+   font-size: 2em;
+   padding: 1%;
+}
+
+.amenities-button {
+   font-family: 'Merriweather', serif;
+   background-color: rgba(0, 0, 0, 0.788);
+   padding: 1%;
+   margin: 2%;
+   text-decoration: none;
+   font-size: 2em;
+   color: azure;
+}
+
+.amenities-button:hover {
+   color: rgb(255, 230, 0);
+}
+
+.amenities-image {
+   grid-area: amenities-image;
+   overflow: hidden;
+}
+
+.amenities-image img {
+   width: 100%;
+   height: 100%;
+}
+
+footer {
+   font-family: 'Roboto', sans-serif;
+   background-color: beige;
+   color: black;
+   padding: 1%;
+   text-align: center; 
+}
+ 
+.top-footer {
+   background-color: rgba(148, 126, 0, 0.788); 
+   padding: 2px;
+   color: #fff; 
+   text-align: center;
+}
+ 
+.footer-buttons {
+   display: flex;
+   justify-content: right;
+}
+ 
+.footer-buttons button {
+   background-color: rgba(148, 126, 0, 0); 
+   border: none;
+   color: #333; 
+   margin-right: 25px;
+   cursor: pointer;
+   font-family: 'Raleway', sans-serif;
+}

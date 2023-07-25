@@ -61,3 +61,32 @@ nav ul li a:hover {
    margin-right: 20px;
    font-family: 'Merriweather', serif;;
 }
+
+footer {
+   font-family: 'Roboto', sans-serif;
+   background-color: beige;
+   color: black;
+   padding: 1%;
+   text-align: center; 
+}
+ 
+.top-footer {
+   background-color: rgba(148, 126, 0, 0.788); 
+   padding: 2px;
+   color: #fff; 
+   text-align: center;
+}
+ 
+.footer-buttons {
+   display: flex;
+   justify-content: right;
+}
+ 
+.footer-buttons button {
+   background-color: rgba(148, 126, 0, 0); 
+   border: none;
+   color: #333; 
+   margin-right: 25px;
+   cursor: pointer;
+   font-family: 'Raleway', sans-serif;
+}
