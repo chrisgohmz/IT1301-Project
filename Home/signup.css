@@ -17,6 +17,7 @@ nav {
 
 nav img {
    height: 100px;
+   border-radius: 4px;
 }
  
 nav ul {
@@ -51,6 +52,8 @@ nav ul li a:hover {
    align-items: center;
    margin-top: 10px;
    margin-bottom: 10px;
+   border-radius: 4px;
+   height: 70px;
 }
 
 .book-now-button a {
@@ -78,25 +81,27 @@ nav ul li a:hover {
  }
  
 .top-footer {
-   background-color: rgba(148, 126, 0, 0.788); 
-   padding: 2px;
-   color: #fff; 
-   text-align: center;
-}
- 
-.footer-buttons {
-   display: flex;
-   justify-content: right;
-}
- 
-.footer-buttons button {
-   background-color: rgba(148, 126, 0, 0); 
-   border: none;
-   color: #333; 
-   margin-right: 25px;
-   cursor: pointer;
-   font-family: 'Raleway', sans-serif;
-}
+      background-color: #d4af37; 
+      padding: 2px;
+      color: #fff; 
+      text-align: center;
+   }
+    
+   .footer-buttons {
+      display: flex;
+      justify-content: right;
+   }
+    
+   .footer-buttons button {
+      background-color: rgba(148, 126, 0, 0); 
+      border: none;
+      color: #333; 
+      margin-right: 25px;
+      cursor: pointer;
+      font-family: 'Raleway', sans-serif;
+      text-decoration: none;
+      font-size: 14px;
+   }
 
 .fbutton {
    text-decoration: none;

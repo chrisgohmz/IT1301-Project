@@ -17,6 +17,7 @@ nav {
 
 nav img {
    height: 100px;
+   border-radius: 3px;
 }
  
 nav ul {
@@ -48,8 +49,12 @@ nav ul li a:hover {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 10px;
+   margin-top: 12px;
    margin-bottom: 10px;
+   border-radius: 4px;
+   height: 70px;
+   border-radius: 4px;
+   height: 70px;
 }
 
 .book-now-button a {
@@ -145,6 +150,7 @@ footer {
   padding: 2px;
   color: #fff; 
   text-align: center;
+  
 }
 
 .footer-buttons {
@@ -160,6 +166,7 @@ footer {
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .fbutton {
@@ -168,7 +175,7 @@ footer {
 }
 
 #gold {
-background-color: #dbae1c;
+background-color: rgba(148, 126, 0, 0.788);
 margin-top: 100px;
 font-family: 'Roboto', sans-serif;
 padding-bottom: 25px;
