@@ -51,6 +51,8 @@ nav ul li a:hover {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 2px;
+    height: 70px;
  }
  
  .book-now-button a {
@@ -59,7 +61,7 @@ nav ul li a:hover {
     color: white;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: 'Merriweather', serif;;
+    font-family: 'Merriweather', serif;
  }
 
 .book-now-button a:hover {
@@ -95,6 +97,7 @@ nav ul li a:hover {
     font-size: 2em;
     text-decoration: none;
     color: azure;
+    border-radius: 4px;
 }
 
 .hero-book-now-button:hover {
@@ -187,6 +190,7 @@ nav ul li a:hover {
     font-size: 2em;
     color: azure;
     font-family: 'Merriweather', serif;
+    border-radius: 6px;
 }
 
 .rooms-button:hover {
@@ -227,6 +231,7 @@ nav ul li a:hover {
     text-decoration: none;
     font-size: 2em;
     color: azure;
+    border-radius: 6px;
 }
 
 .dining-button:hover {
@@ -258,6 +263,7 @@ nav ul li a:hover {
     text-decoration: none;
     font-size: 2em;
     color: azure;
+    border-radius: 6px;
 }
 
 .amenities-button:hover {
