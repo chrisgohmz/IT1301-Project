@@ -128,7 +128,12 @@ nav ul li a:hover {
  label {
    font-family: 'Merriweather', serif;
  }
- 
+ ul{
+   font-family: 'Merriweather', serif;;
+ }
+ h2{
+   font-family: 'Merriweather', serif;
+ }
  input {
    width: 100%;
    padding: 10px;
