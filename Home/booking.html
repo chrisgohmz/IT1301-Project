@@ -41,19 +41,19 @@
     <form>
       <div class="group">
         <div class="form calendar">
-          <label>Start Date</label>
+          <label class="name">Start Date</label>
           <input id="calendar-input" type="text" />
           <div id="calendar-input-div"></div>
         </div>
         <div class="form calendar">
-          <label>End Date</label>
+          <label class="name">End Date</label>
           <input id="calendar-input2" type="text" />
           <div id="calendar-input-div2"></div>
         </div>
       </div>
       <div class="group">
         <div class="form">
-          <label>Number of Adults</label>
+          <label class="name">Number of Adults</label>
           <select class="numbers">
             <option hidden></option>
             <option>1</option>
@@ -62,7 +62,7 @@
           </select>
         </div>
         <div class="form">
-          <label>Number of Children</label>
+          <label class="name">Number of Children</label>
           <select>
             <option hidden></option>
             <option>0</option>
@@ -78,12 +78,12 @@
     <div id="rooms">
       <div class="room">
         <img width="225" height="150" src="../images/Hotel1.jpg">
-        <h3>Classic Chamber</h3>
+        <h3 class="name">Classic Chamber</h3>
         <p>Standard room</p>
       </div>
       <div class="room">
         <img width="225" height="150" src="../images/Hotel2.jpg">
-        <h3>Executive Suite</h3>
+        <h3 class="name">Executive Suite</h3>
         <p>Exucutive room</p>
       </div>
       <div class="room">
@@ -93,11 +93,26 @@
       </div>
       <div class="room">
         <img width="240" height="150" src="../images/Hotel4.jpg">
-        <h3>Grandiose Retreat</h3>
+        <h3 class="name">Grandiose Retreat</h3>
         <p>Premium room</p>
       </div>
     </div>
   </div>
   <button class="submit" onclick="alert('Thank You!')">Submit</button>
+  
+  <footer>
+    <div class="footer-container">
+        <div class="contact-button">
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="icon-link"><img src="../images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/dhayananddd/" class="icon-link"><img src="../images/instagram.png" alt="Instagram"></a>
+            <a href="#" class="icon-link"><img src="../images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/watch?v=AInjPi8d5Sg" class="icon-link"><img src="../images/youtube.png" alt="YouTube"></a>
+        </div>
+    </div>
+  <p>&copy; 2023 Continental Hotel. All rights reserved.</p>
+  </footer>
 </body>
 </html>

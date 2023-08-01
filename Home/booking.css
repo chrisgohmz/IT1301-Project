@@ -70,7 +70,7 @@ nav ul li a:hover {
    color: white;
    margin-left: 20px;
    margin-right: 20px;
-   font-family: 'Merriweather', serif;;
+   font-family: 'Merriweather', serif;
 }
 
 .book-now-button a:hover {
@@ -157,7 +157,6 @@ footer {
   padding: 2px;
   color: #fff; 
   text-align: center;
-  
 }
 
 .footer-buttons {
@@ -299,4 +298,51 @@ select {
    width: 100px;
    height: 40px;
    font-size: 25px;
+   font-family: 'Merriweather', serif;
+   background-color: #d4af37;
+   color: #000000;
+   border-color: #d4af37;
+   border-radius: 5px;
 }
+
+.footer-container {
+   margin-top: 20px;
+   padding: 20px 0;
+   background-color: beige;
+   text-align: center;
+   width: 100%;
+   margin: 0 auto;
+   bottom: 0;
+   width: 100%
+ }
+ 
+ .contact-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+ }
+ 
+ .social-icons {
+    margin-top: 10px;
+ }
+ 
+ .social-icons .icon-link {
+    margin-right: 10px;
+ }
+ 
+ .social-icons img {
+    width: 30px;
+    height: 30px;
+ }
+ 
+ .social-icons .icon-link:hover img {
+    opacity: 0.8;
+ }
+
+ .name {
+   font-family: 'Merriweather', serif;
+ }
