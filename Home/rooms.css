@@ -104,16 +104,14 @@ footer {
    color: #000000;
 }
 
-.footer-container{
-   margin-top: 20px;
-   padding: 20px 0;
-   background-color: beige;
-   text-align: center;
-}
-
 .footer-container {
-   width: auto;
-   margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: beige;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  bottom: 0;
 }
 
 .contact-button a {

@@ -85,14 +85,14 @@ nav ul li a:hover {
       padding: 2px;
       color: #fff; 
       text-align: center;
-   }
+}
     
-   .footer-buttons {
+.footer-buttons {
       display: flex;
       justify-content: right;
-   }
+}
     
-   .footer-buttons button {
+.footer-buttons button {
       background-color: rgba(148, 126, 0, 0); 
       border: none;
       color: #333; 
@@ -101,7 +101,7 @@ nav ul li a:hover {
       font-family: 'Raleway', sans-serif;
       text-decoration: none;
       font-size: 14px;
-   }
+}
 
 .fbutton {
    text-decoration: none;
@@ -137,7 +137,7 @@ nav ul li a:hover {
    border-radius: 4px;
 }
 
- .submit {
+.submit {
    background-color: rgba(148, 126, 0, 0.788);
    color: #fff;
    padding: 10px 20px;
@@ -154,15 +154,14 @@ nav ul li a:hover {
  }
 
  .footer-container{
-   margin-top: 20px;
-   padding: 20px 0;
-   background-color: beige;
-   text-align: center;
-}
-
-.footer-container {
-   width: auto;
-   margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: beige;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; 
+  bottom: 0;
+  position: absolute;
 }
 
 .contact-button a {
@@ -190,4 +189,8 @@ nav ul li a:hover {
 
 .social-icons .icon-link:hover img {
    opacity: 0.8;
+}
+
+.linktosignin {
+   font-family: 'Merriweather', serif;
 }
