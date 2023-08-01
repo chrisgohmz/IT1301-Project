@@ -7,6 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="../vanilla-calendar/_vanilla-calendar.min.css" rel="stylesheet">
+    <link href="../vanilla-calendar/themes/light.min.css" rel="stylesheet">
+    <link href="../vanilla-calendar/themes/dark.min.css" rel="stylesheet">
+    <!-- Plugin JS -->
+    <script src="../vanilla-calendar/vanilla-calendar.min.js" defer></script>
 </head>
 <footer class="top-footer">
   <div class="footer-buttons">
@@ -15,7 +21,7 @@
     <button><a class="fbutton" href="signin.html">SIGN IN</a></button>
   </div>
 </footer>
-<body>
+<header>
   <nav>
     <img src="../images/logo.png" alt="Continental Hotel logo">
     <ul>
@@ -29,11 +35,21 @@
       <a href="booking.html">BOOK NOW</a>
     </div>
   </nav>
+</header>
+<body>
   <div id="gold">
     <div id="forms">
       <form>
         <label>Start Date</label>
-        <div class="inputs">
+        <div id="calendar"></div>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const calendar = new VanillaCalendar('#calendar');
+            calendar.init();
+          });
+        </script>
+        <!--<div class="inputs">
           <select class="year" id="firstdate" placeholder="YEAR">
             <option hidden>YEAR</option>
             <option value="2023">2023</option>
@@ -45,11 +61,19 @@
           <select class="day" placeholder="DAY">
             <option hidden>DAY</option>
           </select>
-        </div>
+        </div>-->
       </form>
       <form>
         <label>End Date</label>
-        <div class="inputs">
+        <div id="calendar"></div>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const calendar = new VanillaCalendar('#calendar');
+            calendar.init();
+          });
+        </script>
+        <!--<div class="inputs">
           <select class="year" placeholder="YEAR">
             <option hidden>YEAR</option>
             <option>2023</option>
@@ -61,7 +85,7 @@
           <select class="day" placeholder="DAY">
             <option hidden>DAY</option>
           </select>
-        </div>
+        </div>-->
       </form>
       <form>
         <label>Number of Adults</label>

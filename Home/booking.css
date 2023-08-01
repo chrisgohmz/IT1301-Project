@@ -10,9 +10,15 @@ header {
    font-family: 'Roboto', sans-serif;
 }
 
+#center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 nav {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 nav img {
