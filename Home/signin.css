@@ -24,12 +24,14 @@ nav ul {
    list-style-type: none;
    display: flex;
    justify-content: center;
+   
 }
  
 nav ul li {
    margin: 0 10px;
    display: flex;
    align-items: center;
+   
 }
  
 nav ul li a {
@@ -60,25 +62,36 @@ nav ul li a:hover {
    color: white;
    margin-left: 20px;
    margin-right: 20px;
-   font-family: 'Merriweather', serif;;
+   font-family: 'Merriweather', serif;
 }
 
 .book-now-button a:hover {
    color: rgb(255, 230, 0);
+   justify-content: center;
 }
 
+.hero-section img {
+   width: 100%;
+}
+
+ .container {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ 
 .top-footer {
-   background-color: #d4af37; 
-   padding: 2px;
-   color: #fff; 
-   text-align: center;
+      background-color: #d4af37; 
+      padding: 2px;
+      color: #fff; 
+      text-align: center;
 }
- 
+    
 .footer-buttons {
-   display: flex;
-   justify-content: right;
+      display: flex;
+      justify-content: right;
 }
- 
+    
 .footer-buttons button {
    background-color: rgba(148, 126, 0, 0); 
    border: none;
@@ -93,4 +106,105 @@ nav ul li a:hover {
 .fbutton {
    text-decoration: none;
    color: #000000;
+}
+
+.pic {
+   grid-area: room-image;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-areas:
+    "room-image room-text";
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   margin: 2.5%;
+   row-gap: 2.5%;
+}
+
+.container {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ 
+ .description {
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: 'Crete Round', serif;
+ }
+ 
+ form {
+   display: grid;
+   grid-gap: 10px;
+ }
+ 
+ label {
+   font-family: 'Merriweather', serif;
+ }
+ 
+ input {
+   width: 100%;
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.submit {
+   background-color: rgba(148, 126, 0, 0.788);
+   color: #fff;
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   font-family: 'Merriweather', serif;
+ }
+
+ .submit:hover {
+   background-color: rgba(148, 126, 0, 0.432);
+ }
+
+ .footer-container{
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: beige;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; 
+  bottom: 0;
+  position: absolute;
+}
+
+.contact-button a {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #d4af37;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   font-family: 'Merriweather', serif;
+}
+
+.social-icons {
+   margin-top: 10px;
+}
+
+.social-icons .icon-link {
+   margin-right: 10px;
+}
+
+.social-icons img {
+   width: 30px;
+   height: 30px;
+}
+
+.social-icons .icon-link:hover img {
+   opacity: 0.8;
+}
+
+.linktosignin {
+   font-family: 'Merriweather', serif;
 }
