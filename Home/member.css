@@ -414,3 +414,53 @@ footer {
 .social-icons .icon-link:hover img {
    opacity: 0.8;
 }
+
+.btn {
+   -webkit-transition: .3s all ease;
+   -o-transition: .3s all ease;
+   transition: .3s all ease;
+   padding: 12px 30px;
+   text-transform: uppercase;
+   letter-spacing: .15em;
+   font-family: 'Merriweather', serif;
+ }
+ 
+ .btn.btn-black {
+   background: #000;
+   color: #fff;
+ }
+ 
+ .btn.btn-primary {
+   color: #fff;
+   border-width: 2px;
+ }
+ 
+ .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+   border-color: #d4af37;
+   background: #d4af37;
+ }
+ 
+ .btn.btn-sm {
+   font-size: 15px;
+ }
+ 
+ .btn.btn-outline-primary {
+   border-width: 2px;
+   color: #d4af37;
+ }
+ 
+ .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
+   color: #fff;
+ }
+ 
+ .btn.btn-outline-white {
+   border-width: 2px;
+   border-color: #fff;
+   color: #fff;
+ }
+ 
+ .btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
+   background: #fff;
+   color: #000;
+   border-width: 2px;
+ }
