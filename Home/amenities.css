@@ -149,6 +149,10 @@ h3 {
    visibility: collapse;
 }
 
+.blue {
+   background-color: rgb(216, 216, 255) !important;
+}
+
 @media screen and (max-width: 1190px) {
 
    .flex {
