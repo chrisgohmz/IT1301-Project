@@ -113,26 +113,26 @@ nav ul li a:hover {
    margin: 0 auto;
    padding: 20px;
  }
- 
+ /*font for Get in touch with our team*/
  .description {
    text-align: center;
    margin-bottom: 20px;
-   font-family: 'Crete Round', serif;
+   font-family: 'Antic Didone';
  }
  
  form {
    display: grid;
    grid-gap: 10px;
  }
- 
+ /*label font for the form label,ul font for the content,h2 for location etc  */
  label {
-   font-family: 'Merriweather', serif;
+   font-family: 'Antic Didone';
  }
  ul{
-   font-family: 'Merriweather', serif;;
+   font-family: 'Antic Didone';
  }
  h2{
-   font-family: 'Merriweather', serif;
+   font-family: "Antic Didone";
  }
  input {
    width: 100%;
@@ -151,6 +151,7 @@ nav ul li a:hover {
    border-radius: 4px;
    cursor: pointer;
    transition: background-color 0.3s;
+   /*submit button font*/
    font-family: 'Merriweather', serif;
  }
 
