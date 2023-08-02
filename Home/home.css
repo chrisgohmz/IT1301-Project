@@ -129,15 +129,15 @@ nav ul li a:hover {
     padding: 40px 0;
     background: white;
     color: black;
+    align-items: center;
 }
 
 .book h1 {
-    font-size:28 px;
+    font-size:  30px;
 
 }
-.book h1 span {
-    margin-left: 45%;
-    font-size: larger;
+.book h1 {
+    margin-left: 35%;
     color:black;
 }
 
@@ -151,7 +151,7 @@ nav ul li a:hover {
     border-color: #cfb025;
 }
 .form {
-    margin-left: 30%;
+    margin-left: 5%;
 
 }
 
