@@ -309,7 +309,7 @@ footer {
    color: #000000;
 }
 
-.footer-container{
+.footer-container {
   margin-top: 20px;
   padding: 20px 0;
   background-color: beige;
@@ -346,4 +346,3 @@ footer {
 .social-icons .icon-link:hover img {
    opacity: 0.8;
 }
-
