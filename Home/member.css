@@ -414,3 +414,6 @@ footer {
 .social-icons .icon-link:hover img {
    opacity: 0.8;
 }
+.pic{
+   width: 100%;
+}
