@@ -294,3 +294,14 @@ footer {
 .form {
    margin-left: 30%;
 }
+
+.booknowbuttondes {
+   font-family: 'Merriweather', serif;
+    background-color: rgba(148, 126, 0, 0.788);
+    padding: 1%;
+    margin: 2%;
+    text-decoration: none;
+    font-size: 2em;
+    color: azure;
+    border-radius: 6px;
+}
