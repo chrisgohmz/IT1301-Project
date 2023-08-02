@@ -310,13 +310,6 @@ nav ul li a:hover {
     color: #000000;
  }
 
- .footer-container{
-    margin-top: 20px;
-    padding: 20px 0;
-    background-color: beige;
-    text-align: center;
-}
-
 .footer-container {
     width: auto;
     margin: 0 auto;
