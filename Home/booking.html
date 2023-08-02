@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
     <!-- Plugin CSS -->
-    <link href="../vanilla-calendar/vanilla-calendar.min.css" rel="stylesheet">
+    <link href="../vanilla-calendar/_vanilla-calendar.min.css" rel="stylesheet">
     <link href="../vanilla-calendar/themes/light.min.css" rel="stylesheet">
     <link href="../vanilla-calendar/themes/dark.min.css" rel="stylesheet">
     <!-- Plugin JS -->
@@ -37,82 +37,76 @@
   </nav>
 </header>
 <body>
-  <div class="gold">
-    <form>
-      <div class="group">
-        <div class="form calendar">
-          <label class="name">Start Date</label>
-          <input id="calendar-input" type="text" />
-          <div id="calendar-input-div"></div>
-        </div>
-        <div class="form calendar">
-          <label class="name">End Date</label>
-          <input id="calendar-input2" type="text" />
-          <div id="calendar-input-div2"></div>
-        </div>
-      </div>
-      <div class="group">
-        <div class="form">
-          <label class="name">Number of Adults</label>
-          <select class="numbers">
-            <option hidden></option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
+  <div id="gold">
+    <div id="forms">
+      <form>
+        <label>Start Date</label>
+        <div id="calendar"></div>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const calendar = new VanillaCalendar('#calendar');
+            calendar.init();
+          });
+        </script>
+        <!--<div class="inputs">
+          <select class="year" id="firstdate" placeholder="YEAR">
+            <option hidden>YEAR</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
           </select>
-        </div>
-        <div class="form">
-          <label class="name">Number of Children</label>
-          <select>
-            <option hidden></option>
-            <option>0</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
+          <select class="month" placeholder="MONTH">
+            <option hidden>MONTH</option>
           </select>
-        </div>
-      </div>
-    </form>
-  </div>
-  <div class="gold nobottompadding">
-    <div id="rooms">
-      <div class="room">
-        <img width="225" height="150" src="../images/Hotel1.jpg">
-        <h3 class="name">Classic Chamber</h3>
-        <p>Standard room</p>
-      </div>
-      <div class="room">
-        <img width="225" height="150" src="../images/Hotel2.jpg">
-        <h3 class="name">Executive Suite</h3>
-        <p>Exucutive room</p>
-      </div>
-      <div class="room">
-        <img width="225" height="150" src="../images/Hotel3.jpg">
-        <h3>Opulent Manor</h3>
-        <p>Luxury room</p>
-      </div>
-      <div class="room">
-        <img width="240" height="150" src="../images/Hotel4.jpg">
-        <h3 class="name">Grandiose Retreat</h3>
-        <p>Premium room</p>
-      </div>
+          <select class="day" placeholder="DAY">
+            <option hidden>DAY</option>
+          </select>
+        </div>-->
+      </form>
+      <form>
+        <label>End Date</label>
+        <div id="calendar"></div>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const calendar = new VanillaCalendar('#calendar');
+            calendar.init();
+          });
+        </script>
+        <!--<div class="inputs">
+          <select class="year" placeholder="YEAR">
+            <option hidden>YEAR</option>
+            <option>2023</option>
+            <option>2024</option>
+          </select>
+          <select class="month" placeholder="MONTH">
+            <option hidden>MONTH</option>
+          </select>
+          <select class="day" placeholder="DAY">
+            <option hidden>DAY</option>
+          </select>
+        </div>-->
+      </form>
+      <form>
+        <label>Number of Adults</label>
+        <select class="numbers">
+          <option hidden></option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </form>
+      <form>
+        <label>Number of Children</label>
+        <select>
+          <option hidden></option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </form>
     </div>
   </div>
-  <button class="submit" onclick="alert('Thank You!')">Submit</button>
-  
-  <footer>
-    <div class="footer-container">
-        <div class="contact-button">
-            <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="social-icons">
-            <a href="#" class="icon-link"><img src="../images/twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/dhayananddd/" class="icon-link"><img src="../images/instagram.png" alt="Instagram"></a>
-            <a href="#" class="icon-link"><img src="../images/facebook.png" alt="Facebook"></a>
-            <a href="https://www.youtube.com/watch?v=AInjPi8d5Sg" class="icon-link"><img src="../images/youtube.png" alt="YouTube"></a>
-        </div>
-    </div>
-  <p>&copy; 2023 Continental Hotel. All rights reserved.</p>
-  </footer>
 </body>
 </html>

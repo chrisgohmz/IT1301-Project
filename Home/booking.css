@@ -8,7 +8,6 @@ header {
    padding: 0 20%;
    height: 100px;
    font-family: 'Roboto', sans-serif;
-   margin-bottom: 100px;
 }
 
 #center {
@@ -70,7 +69,7 @@ nav ul li a:hover {
    color: white;
    margin-left: 20px;
    margin-right: 20px;
-   font-family: 'Merriweather', serif;
+   font-family: 'Merriweather', serif;;
 }
 
 .book-now-button a:hover {
@@ -153,10 +152,11 @@ footer {
 }
 
 .top-footer {
-  background-color: #d4af37;
+  background-color: rgba(148, 126, 0, 0.788); 
   padding: 2px;
   color: #fff; 
   text-align: center;
+  
 }
 
 .footer-buttons {
@@ -180,34 +180,29 @@ footer {
   color: #000000;
 }
 
-.gold {
-background-color: #fdeaaa;
-margin-top: 50px;
+#gold {
+background-color: rgba(148, 126, 0, 0.788);
+margin-top: 100px;
 font-family: 'Roboto', sans-serif;
 padding-bottom: 25px;
 }
 
-form {
-   display:flex;
-   flex-direction: row;
-   justify-content: space-around;
-   padding-top: 20px;
-   padding-left: 15px;
-   padding-right: 15px;
+#forms {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+overflow: auto;
 }
 
-.calendar {
-   margin-left: 100px !important;
-}
+@media screen and (max-width: 1150px){
+  #forms {
+     flex-direction: column;
+  }
 
-.form {
-   margin: 0 20px 0 20px;
+  form {
+     margin-left: 20px;
+  }
 }
-
-input {
-   max-width: 190px;
-}
-
 
 .inputs {
   display: flex;
@@ -221,26 +216,27 @@ label {
   font-size: 20px;
 }
 
+.day {
+width: 90px;
+height: 35px;
+margin-right: 5px;
+}
+
+.month {
+width: 90px;
+height: 35px;
+margin-right: 5px;
+}
+
+.year {
+width: 180px;
+height: 35px;
+margin-right: 5px;
+}
+
 select {
-   width: 200px;
-   height: 35px;
-}
-
-#rooms {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-}
-
-.room {
-   text-align: center;
-   width: 25%;
-   min-width: 250px;
-   padding: 25px;
-}
-
-.room:hover {
-   background-color: white;
+width: 200px;
+height: 35px;
 }
 
 .footer-container{
@@ -281,68 +277,3 @@ select {
 .social-icons .icon-link:hover img {
    opacity: 0.8;
 }
-
-.group {
-   display: flex;
-   flex-direction: row;
-}
-
-.nobottompadding {
-   padding-bottom: 0 !important;
-}
-
-.submit {
-   float: right;
-   margin-top: 15px;
-   margin-right: 15px;
-   width: 100px;
-   height: 40px;
-   font-size: 25px;
-   font-family: 'Merriweather', serif;
-   background-color: #d4af37;
-   color: #000000;
-   border-color: #d4af37;
-   border-radius: 5px;
-}
-
-.footer-container {
-   margin-top: 20px;
-   padding: 20px 0;
-   background-color: beige;
-   text-align: center;
-   width: 100%;
-   margin: 0 auto;
-   bottom: 0;
-   width: 100%
- }
- 
- .contact-button a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #d4af37;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: 'Merriweather', serif;
- }
- 
- .social-icons {
-    margin-top: 10px;
- }
- 
- .social-icons .icon-link {
-    margin-right: 10px;
- }
- 
- .social-icons img {
-    width: 30px;
-    height: 30px;
- }
- 
- .social-icons .icon-link:hover img {
-    opacity: 0.8;
- }
-
- .name {
-   font-family: 'Merriweather', serif;
- }
