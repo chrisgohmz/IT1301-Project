@@ -275,7 +275,7 @@ nav ul li a:hover {
 
 footer {
    font-family: 'Roboto', sans-serif;
-   background-color: beige;
+   background-color: #f6eaa1;
    color: black;
    padding: 1%;
    text-align: center;
@@ -312,7 +312,7 @@ footer {
 .footer-container {
   margin-top: 20px;
   padding: 20px 0;
-  background-color: beige;
+  background-color: #f6eaa1;
   text-align: center;
   width: 100%;
   margin: 0 auto;
