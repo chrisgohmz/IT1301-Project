@@ -164,6 +164,7 @@ nav ul li a:hover {
 .room-image img {
     width: 100%;
     height: 100%;
+    border-radius: 12px;
 }
 
 .room-text {
@@ -205,6 +206,7 @@ nav ul li a:hover {
 .dining-image img {
     width: 100%;
     height: 100%;
+    border-radius: 12px;
 }
   
 .dining-text {
@@ -278,6 +280,7 @@ nav ul li a:hover {
 .amenities-image img {
     width: 100%;
     height: 100%;
+    border-radius: 12px;
 }
   
  .top-footer {
