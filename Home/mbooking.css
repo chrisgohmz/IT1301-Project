@@ -120,12 +120,6 @@ nav ul li a:hover {
    background-color: rgba(148, 126, 0, 0.432);
  }
 
-
-
-
-
-
-
 .footer-buttons {
    display: flex;
    justify-content: right;
@@ -253,3 +247,6 @@ nav ul li a:hover {
    opacity: 0.8;
 }
 
+.pic {
+   width: 100%;
+}
