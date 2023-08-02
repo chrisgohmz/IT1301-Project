@@ -1,103 +1,292 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Continental Hotel - Home</title>
-  <link rel="stylesheet" type="text/css" href="home.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
-</head>
-<footer class="top-footer">
-  <div class="footer-buttons">
-    <button><a class="fbutton" href="booking.html">MANAGE BOOKING</a></button>
-    <button><a class="fbutton" href="signup.html">SIGN UP</a></button>
-    <button><a class="fbutton" href="signin.html">SIGN IN</a></button>
-  </div>
-</footer>
-<body>
-  <header>
-    <nav>
-      <img src="../images/logo.png" alt="Continental Hotel logo">
-      <ul>
-        <li><a href="home.html">HOME</a></li>
-        <li><a href="rooms.html">ROOMS</a></li>
-        <li><a href="dining.html">DINING</a></li>
-        <li><a href="amenities.html">AMENITIES</a></li>
-        <li><a href="member.html">MEMBERS</a></li>
-      </ul>
-      <div class="book-now-button">
-        <a href="booking.html">BOOK NOW</a>
-      </div>
-    </nav>
-  </header>
-  
-  <section class="hero-section">
-    <img src="../images/hotel-background.png" alt="hotel background">
-    <section class=" book">
-      <div class=" container flex_space">
-        <div class= "text">
-          <h1> <span>Book </span> Your Rooms </h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Continental Hotel - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header role="banner">
+     
+      <nav class="navbar navbar-expand-md navbar-dark bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="../images/logo.png" alt="hotel logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rooms.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dining.html">Dining</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>
+
+               <li class="nav-item cta">
+                <a class="nav-link" href="booknow.html"><span>Book Now</span></a>
+              </li>
+            </ul>
+            
+          </div>
         </div>
-        <div class=" form">
-          <input type="date" placeholder="Arrival Date">
-          <input type="date" placeholder="Departure Date">
-          <input type="number" placeholder="Adults">
-          <input type="number" placeholder="Children">
-          <input type="submit" value=" Check Availability">
+      </nav>
+    </header>
+    <!-- END header -->
+
+    <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(../images/hotel-background.jpg);">
+      <div class="container">
+        <div class="row align-items-center site-hero-inner justify-content-center">
+          <div class="col-md-12 text-center">
+
+            <div class="mb-5 element-animate">
+              <h1>Welcome To Continental Hotel</h1>
+              <p>Discover the world's #1 Luxury Hotel For VIP.</p>
+              <p><a href="booknow.html" class="btn btn-primary">Book Now</a></p>
+            </div>
+
+          </div>
         </div>
-  
       </div>
     </section>
-    <div class="hero-text-container">
-      <h1>Experience the epitome of luxury and comfort at Continental Hotel</h1>
-      <a href="booking.html" class="hero-book-now-button">BOOK HERE</a>
-      <a href="member.html" class="sign-in"><b>SIGN IN or JOIN</b></a>
-    </div>
-  </section>
+    <!-- END section -->
 
-  <section class="grid-container">
-    <div class="room-image">
-      <img src="../images/hotel-room.png">
-    </div>
-    <div class="room-text">
-      <h2>Indulge in Comfort and Elegance with Our Exquisite Rooms</h2>
-        <a href="rooms.html" class="rooms-button">View Rooms</a>
-    </div>
-
-    <div class="dining-image">
-      <img src="../images/dining-table.png" alt="dining table">
-    </div>
-    <div class="dining-text">
-      <h2>Indulge in exquisite culinary delights</h2>
-      <a href="dining.html" class="dining-button">Explore Dining</a>
-    </div>
-
-    <div class="amenities-image">
-      <img src="../images/hotel-spa.png" alt="hotel spa">
-    </div>
-    <div class="amenities-text">
-      <h2>Discover the perfect balance of tranquility and rejuvenation with our luxurious amenities. Dive into our sparkling swimming pool, where refreshing moments await, or surrender to the serenity of our world-class spa, offering an array of indulgent treatments</h2>
-      <a href="../Amenities/amenities.html" class="amenities-button">Discover More</a>
-    </div>
-  </section>
-
-
-  <footer>
-    <div class="footer-container">
-        <div class="contact-button">
-            <a href="contact.html">Contact Us</a>
+    <section class="site-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="heading-wrap text-center element-animate">
+              <h2 class="heading">Unveiling Our Story: Where Hospitality Meets Heartfelt Luxury</h2>
+              <p class="mb-5 text-justify">In this exclusive haven of refinement, every moment is meticulously crafted to elevate your stay into a timeless memory. Discover a symphony of sophistication, where impeccable service meets the art of indulgence. From the moment you step foot into our world of elegance, you will be enveloped in an ambiance that is both lavish and welcoming.</p>
+              <p><a href="about.html" class="btn btn-primary btn-sm">More About Us</a></p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <img src="../images/f_img_1.png" alt="Image placeholder" class="img-fluid">
+          </div>
         </div>
-        <div class="social-icons">
-            <a href="#" class="icon-link"><img src="../images/twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/dhayananddd/" class="icon-link"><img src="../images/instagram.png" alt="Instagram"></a>
-            <a href="#" class="icon-link"><img src="../images/facebook.png" alt="Facebook"></a>
-            <a href="https://www.youtube.com/watch?v=AInjPi8d5Sg" class="icon-link"><img src="../images/youtube.png" alt="YouTube"></a>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section bg-light">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 heading-wrap text-center">
+            <h4 class="sub-heading">Our Luxury Rooms</h4>
+              <h2 class="heading">Featured Rooms</h2>
+          </div>
         </div>
-    </div>
-  <p>&copy; 2023 Continental Hotel. All rights reserved.</p>
-</footer>
-</body>
-</body>
+        <div class="row ">
+          <div class="col-md-7">
+            <div class="media d-block room mb-0">
+              <figure>
+                <img src="../images/img_1.jpg" alt="Generic placeholder image" class="img-fluid">
+                <div class="overlap-text">
+                  <span>
+                    Featured Room 
+                    <span class="ion-ios-star"></span>
+                    <span class="ion-ios-star"></span>
+                    <span class="ion-ios-star"></span>
+                  </span>
+                </div>
+              </figure>
+              <div class="media-body">
+                <h3 class="mt-0"><a href="#">Presidential Suite</a></h3>
+                <ul class="room-specs">
+                  <li><span class="ion-ios-people-outline"></span> 2 Guests</li>
+                  <li><span class="ion-ios-crop"></span> 22 ft <sup>2</sup></li>
+                </ul>
+                <p>This exquisite haven transcends all expectations, boasting expansive living spaces adorned with the finest craftsmanship and elegant furnishings fit for royalty. From the panoramic views of the city's skyline to the lavish amenities meticulously tailored for your comfort, every detail has been curated to ensure an indulgent experience beyond compare. With dedicated personalized service and a private oasis of relaxation, our Presidential Suite offers an unforgettable stay that epitomizes grandeur and sophistication. Treat yourself to the pinnacle of luxury, where dreams become reality and your every desire is our command.</p>
+                <p><a href="booknow.html" class="btn btn-primary btn-sm">Book Now From $498</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 room-thumbnail-absolute">
+            <a href="booknow.html" class="media d-block room bg first-room" style="background-image: url(../images/img_2.jpg); ">
+              <!-- <figure> -->
+                <div class="overlap-text">
+                  <span>
+                    Single Room 
+                    <span class="ion-ios-star"></span>
+                    <span class="ion-ios-star"></span>
+                    <span class="ion-ios-star"></span>
+                  </span>
+                  <span class="pricing-from">
+                    from $198
+                  </span>
+                </div>
+              <!-- </figure> -->
+            </a>
+
+            <a href="booknow.html" class="media d-block room bg second-room" style="background-image: url(../images/img_4.jpg); ">
+              <!-- <figure> -->
+                <div class="overlap-text">
+                  <span>
+                    Double Room 
+                    <span class="ion-ios-star"></span>
+                    <span class="ion-ios-star"></span>
+                    <span class="ion-ios-star"></span>
+                  </span>
+                  <span class="pricing-from">
+                    from $298
+                  </span>
+                </div>
+              <!-- </figure> -->
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    
+    <section class="site-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="heading-wrap text-center element-animate">
+              <h2 class="heading">Culinary Delights: A Gastronomic Journey Awaits</h2>
+              <p class="mb-5 text-justify">Indulge your palate in an unforgettable dining experience at our esteemed restaurant. Our culinary artisans craft each dish with passion, blending the finest locally sourced ingredients and global inspirations. From delectable gourmet creations to delightful handcrafted cocktails, every moment is a celebration of taste and refinement. Whether it's an intimate dinner for two or a lively gathering with friends, our dining venue promises to captivate your senses and leave you craving for more. Savor each bite amidst an ambiance of elegance and warmth, where exceptional service complements every mouthwatering morsel. Welcome to a gastronomic journey like no other.</p>
+              <p><a href="dining.html" class="btn btn-primary btn-sm">View Dining</a></p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <img class="img-fluid" src="../images/dining-table.jpg" alt="dining table" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    
+    <section class="site-section bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <img class="img-fluid" src="../images/swimming-pool.jpg" alt="swimming pool" class="img-fluid">
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <div class="heading-wrap text-center element-animate">
+              <h2 class="heading">Unparalleled Facilities: Where Luxury Meets Convenience</h2>
+              <p class="mb-5 text-justify">Embrace a world of unrivaled comfort and sophistication with our array of top-tier facilities. Every aspect of your stay has been thoughtfully designed to provide you with the utmost convenience and indulgence. Plunge into the serene depths of our sparkling infinity pool, where relaxation knows no bounds. Stay rejuvenated at our state-of-the-art spa, offering a haven of tranquility and wellness. For those seeking an active escape, our fully-equipped fitness center awaits to elevate your workouts. From seamless concierge services to high-tech meeting rooms, our hotel presents a seamless blend of opulence and practicality. Experience a symphony of luxury amenities that complement your stay and create cherished memories that last a lifetime.</p>
+              <p><a href="facilities.html" class="btn btn-primary btn-sm">View Facilities</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="heading-wrap text-center element-animate">
+              <h2 class="heading">Elevate Your Experience: Unforgettable Events and Celebrations</h2>
+              <p class="mb-5 text-justify">At Continental Hotel, the stage is set for unforgettable moments and extraordinary experiences. From exquisite weddings and lavish corporate galas to exclusive wine tastings and culinary masterclasses, our diverse array of events promises to captivate your senses and leave you with cherished memories. Whether you seek relaxation, celebration, or inspiration, our talented team of event planners ensures that every detail is flawlessly executed. With stunning venues, unmatched service, and an ambiance of sophistication, each event at our hotel is a symphony of luxury and elegance. Explore our calendar of exceptional events and immerse yourself in a world of indulgence and delight.</p>
+              <p><a href="events.html" class="btn btn-primary btn-sm">View Events</a></p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <img class="img-fluid" src="../images/disco.jpg" alt="disco" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+   
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <h3>Phone Support</h3>
+            <p>24/7 Call us now.</p>
+            <p class="lead"><a href="tel://">+ 1 332 3093 323</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Connect With Us</h3>
+            <p>We are socialized. Follow us</p>
+            <p>
+              <a href="#" class="pl-0 p-3"><span class="fa fa-facebook"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-twitter"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-instagram"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-vimeo"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-youtube-play"></span></a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Connect With Us</h3>
+            <p>Join our mailing list for exclusive notifications on events and promotions.</p>
+            <form action="#" class="subscribe">
+              <div class="form-group">
+                <button type="submit"><span class="ion-ios-arrow-thin-right"></span></button>
+                <input type="email" class="form-control" placeholder="Enter email">
+              </div>
+              
+            </form>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7 text-center">
+            &copy;<script>document.write(new Date().getFullYear());</script> Continental Hotel. All rights reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END footer -->
+    
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
