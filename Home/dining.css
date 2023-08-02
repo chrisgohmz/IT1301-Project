@@ -114,6 +114,7 @@ footer {
    background-position: center center;
    min-height: 750px;
    height: 100vh;
+   font-family: 'Antic Didone', serif;
  }
  
  .site-hero > .container {
@@ -169,6 +170,10 @@ footer {
  .site-hero-innerpage, .site-hero-innerpage .site-hero-inner {
    min-height: 550px;
    height: 50vh;
+ }
+
+ .site-hero h1, .site-hero p, .body-text {
+   font-family: 'Antic Didone', serif;
  }
 
  .post-entry .body-text {
@@ -323,6 +328,7 @@ footer {
    padding: 12px 30px;
    text-transform: uppercase;
    letter-spacing: .15em;
+   font-family: 'Merriweather', serif;
  }
  
  .btn.btn-black {
