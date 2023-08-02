@@ -38,18 +38,25 @@
   </header>
 
   
-  <form class="manage-booking-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <section class="grid-container">
+    <img class="pic" src="../images/hotel-background.jpg" alt="hotel background">
+     <div class="container">
+       <h1 class="description">Manage Booking</h1>
+       <form id="booking-form" action="#" method="POST">
+         <label for="fullname">Full Name:</label>
+         <input type="text" id="fullname" name="fullname" required>
+         
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required>
+   
+         <label for="Bookinf Reference">Booking Reference:</label>
+         <input type="Booking Ref" id="Booking Ref" name="Booking Ref" required>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-      <label for="bookingRef">Booking Reference:</label>
-      <input type="text" id="bookingRef" name="bookingRef" placeholder="Enter your booking reference" required>
-
-      <button type="submit">Submit</button>
-  </form>
+  
+         <button class="submit" type="submit">Proceed</button>
+       </form>
+     </div>
+    </section>
   
 
   <footer class="site-footer">
