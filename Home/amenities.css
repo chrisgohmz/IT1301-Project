@@ -118,7 +118,7 @@ h2 {
    flex-direction: row;
    margin-bottom: 100px;
    align-items: center;
-   background-color: #ffeafc;
+   background-color: rgb(255, 232, 174);
 }
 
 .content {
@@ -130,7 +130,7 @@ h2 {
    max-height: 300px;
    min-width: 300px;
    overflow: scroll;
-   background-color: rgb(255, 232, 174);
+   background-color: rgb(255, 211, 128);
    padding: 15px;
    font-family: 'Antic Didone', serif;
 }
@@ -168,7 +168,7 @@ h3 {
       margin-left: 0;
       margin-right: 0;
       margin-bottom: 100px;
-      background-color: rgb(255, 232, 174);
+      background-color: rgb(255, 211, 128);
       padding: 15px 25px;
    }
 

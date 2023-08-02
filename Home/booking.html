@@ -7,7 +7,7 @@
     <script src="booking.js"></script>
     <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
     <!-- Plugin CSS -->
@@ -44,31 +44,29 @@
     <form>
       <div class="group">
         <div class="form calendar">
-          <label class="name">Start Date</label>
-          <input id="calendar-input" type="text" />
+          <label class="name">Check-in Date</label>
+          <input id="calendar-input" type="text" autocomplete="off"/>
           <div id="calendar-input-div"></div>
         </div>
         <div class="form calendar">
-          <label class="name">End Date</label>
-          <input id="calendar-input2" type="text" />
+          <label class="name">Check-Out Date</label>
+          <input id="calendar-input2" type="text" autocomplete="off"/>
           <div id="calendar-input-div2"></div>
         </div>
       </div>
       <div class="group">
         <div class="form">
           <label class="name">Number of Adults</label>
-          <select class="numbers">
-            <option hidden></option>
-            <option>1</option>
+          <select id="adults" class="numbers">
+            <option selected>1</option>
             <option>2</option>
             <option>3</option>
           </select>
         </div>
         <div class="form">
-          <label class="name">Number of Children</label>
-          <select>
-            <option hidden></option>
-            <option>0</option>
+          <label>Number of Children</label>
+          <select id="children" class="name">
+            <option selected>0</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -77,31 +75,39 @@
       </div>
     </form>
   </div>
-  <div class="gold nobottompadding">
-    <div id="rooms">
-      <div class="room">
-        <img width="225" height="150" src="../images/Hotel1.jpg">
-        <h3 class="name">Classic Chamber</h3>
-        <p>Standard room</p>
-      </div>
-      <div class="room">
-        <img width="225" height="150" src="../images/Hotel2.jpg">
-        <h3 class="name">Executive Suite</h3>
-        <p>Exucutive room</p>
-      </div>
-      <div class="room">
-        <img width="225" height="150" src="../images/Hotel3.jpg">
-        <h3>Opulent Manor</h3>
-        <p>Luxury room</p>
-      </div>
-      <div class="room">
-        <img width="240" height="150" src="../images/Hotel4.jpg">
-        <h3 class="name">Grandiose Retreat</h3>
-        <p>Premium room</p>
+  <fieldset id="hotelselect">
+    <div class="gold nobottompadding">
+      <div id="rooms">
+        <div class="room">
+          <img width="225" height="150" src="../images/Hotel1.jpg">
+          <h3 class="name">Classic Chamber</h3>
+          <p>Standard room</p>
+          <input value="Standard" name="room_type" type="radio" checked/>
+        </div>
+        <div class="room">
+          <img width="225" height="150" src="../images/Hotel2.jpg">
+          <h3 class="name">Executive Suite</h3>
+          <p>Executive room</p>
+          <input value="Executive" name="room_type" type="radio"/>
+        </div>
+        <div class="room">
+          <img width="225" height="150" src="../images/Hotel3.jpg">
+          <h3>Opulent Manor</h3>
+          <p>Luxury room</p>
+          <input value="Luxury" name="room_type" type="radio"/>
+        </div>
+        <div class="room">
+          <img width="240" height="150" src="../images/Hotel4.jpg">
+          <h3 class="name">Grandiose Retreat</h3>
+          <p>Premium room</p>
+          <input value="Premium" name="room_type" type="radio"/>
+        </div>
       </div>
     </div>
+  </fieldset>
+  <div id="button">
+    <button id="submitbutton" class="submit" >Submit</button>
   </div>
-  <button class="submit" onclick="alert('Thank You!')">Submit</button>
   
   <footer class="site-footer">
     <div class="container">
