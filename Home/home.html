@@ -4,19 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Continental Hotel - Home</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Crete+Round:ital@1&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=Merriweather:ital@1&family=Prata&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ranga&family=Tsukimi+Rounded:wght@500&display=swap&family=Playfair+Display:400,700,900|Rubik:300,400,700" rel="stylesheet">
 </head>
-<footer class="top-footer">
-  <div class="footer-buttons">
-    <button><a class="fbutton" href="booking.html">MANAGE BOOKING</a></button>
-    <button><a class="fbutton" href="signup.html">SIGN UP</a></button>
-    <button><a class="fbutton" href="signin.html">SIGN IN</a></button>
-  </div>
-</footer>
 <body>
+  <div class="top-footer">
+    <div class="footer-buttons">
+      <button><a class="fbutton" href="mbooking.html">MANAGE BOOKING</a></button>
+      <button><a class="fbutton" href="signup.html">SIGN UP</a></button>
+      <button><a class="fbutton" href="signin.html">SIGN IN</a></button>
+    </div>
+  </div>
   <header>
     <nav>
       <img src="../images/logo.png" alt="Continental Hotel logo">
@@ -34,7 +37,7 @@
   </header>
   
   <section class="hero-section">
-    <img src="../images/hotel-background.png" alt="hotel background">
+    <img src="../images/hotel-background.jpg" alt="hotel background">
     <section class=" book">
       <div class=" container flex_space">
         <div class= "text">
@@ -59,7 +62,7 @@
 
   <section class="grid-container">
     <div class="room-image">
-      <img src="../images/hotel-room.png">
+      <img src="../images/hotel-room.jpg">
     </div>
     <div class="room-text">
       <h2>Indulge in Comfort and Elegance with Our Exquisite Rooms</h2>
@@ -67,7 +70,7 @@
     </div>
 
     <div class="dining-image">
-      <img src="../images/dining-table.png" alt="dining table">
+      <img src="../images/dining-table.jpg" alt="dining table">
     </div>
     <div class="dining-text">
       <h2>Indulge in exquisite culinary delights</h2>
@@ -75,7 +78,7 @@
     </div>
 
     <div class="amenities-image">
-      <img src="../images/hotel-spa.png" alt="hotel spa">
+      <img src="../images/hotel-spa.jpg" alt="hotel spa">
     </div>
     <div class="amenities-text">
       <h2>Discover the perfect balance of tranquility and rejuvenation with our luxurious amenities. Dive into our sparkling swimming pool, where refreshing moments await, or surrender to the serenity of our world-class spa, offering an array of indulgent treatments</h2>
@@ -84,20 +87,43 @@
   </section>
 
 
-  <footer>
-    <div class="footer-container">
-        <div class="contact-button">
-            <a href="contact.html">Contact Us</a>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <h3>Phone Support</h3>
+          <p>24/7 Call us now.</p>
+          <p class="lead"><a href="tel://">+ 1 332 3093 323</a></p>
         </div>
-        <div class="social-icons">
-            <a href="#" class="icon-link"><img src="../images/twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/dhayananddd/" class="icon-link"><img src="../images/instagram.png" alt="Instagram"></a>
-            <a href="#" class="icon-link"><img src="../images/facebook.png" alt="Facebook"></a>
-            <a href="https://www.youtube.com/watch?v=AInjPi8d5Sg" class="icon-link"><img src="../images/youtube.png" alt="YouTube"></a>
+        <div class="col-md-4">
+          <h3>Connect With Us</h3>
+          <p>We are socialized. Follow us</p>
+          <p>
+            <a href="#" class="pl-0 p-3"><span class="fa fa-facebook"></span></a>
+            <a href="#" class="p-3"><span class="fa fa-twitter"></span></a>
+            <a href="#" class="p-3"><span class="fa fa-instagram"></span></a>
+            <a href="#" class="p-3"><span class="fa fa-vimeo"></span></a>
+            <a href="#" class="p-3"><span class="fa fa-youtube-play"></span></a>
+          </p>
         </div>
+        <div class="col-md-4">
+          <h3>Connect With Us</h3>
+          <p>Join our mailing list for exclusive notifications on events and promotions.</p>
+          <form action="#" class="subscribe">
+            <div class="form-group">
+              <button type="submit"><span class="ion-ios-arrow-thin-right"></span></button>
+              <input type="email" class="form-control" placeholder="Enter email">
+            </div>
+            
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-7 text-center">
+          &copy;<script>document.write(new Date().getFullYear());</script> Continental Hotel. All rights reserved
+        </div>
+      </div>
     </div>
-  <p>&copy; 2023 Continental Hotel. All rights reserved.</p>
-</footer>
-</body>
+  </footer>
 </body>
 </html>
