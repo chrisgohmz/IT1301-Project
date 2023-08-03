@@ -53,7 +53,7 @@
       <div class="row">
         <div class="col-md-6">
           <h2 class="mb-5">Reservation Form</h2>
-              <form action="#" method="post">
+              <form action="#" method="post" id="reservationForm">
                 <div class="row">
                     <div class="col-md 6 form-group">
                         <label for="name">Name</label>
@@ -141,5 +141,50 @@
       </div>
     </div>
   </footer>
+  <script>
+    function makeReservation(event) {
+      // Prevent the default form submission
+      event.preventDefault();
+
+      // Access form elements and their values
+      const restaurant = document.getElementById('restaurant').value;
+      const guests = parseInt(document.getElementById('guests').value);
+      let reservedSeats;
+  
+      // Check which restaurant was selected
+      if (restaurant === 'alpha-restaurant') {
+        alphaReservedSeats += guests;
+        reservedSeats = alphaReservedSeats;
+      } else if (restaurant === 'beta-restaurant') {
+        betaReservedSeats += guests;
+        reservedSeats = betaReservedSeats
+      } else {
+        alert('Invalid restaurant selection.');
+        return;
+      }
+      
+      // Check if there are available seats
+      if (reservedSeats < maxCapacity) {
+        if (restaurant === 'alpha-restaurant') {
+          alphaReservedSeats += reservedSeats;
+        } else {
+          betaReservedSeats += reservedSeats;
+        }
+  
+        // Show success message
+        alert(`Reservation successful at ${restaurant} Restaurant. Reserved seats: ${reservedSeats}`);
+      } else {
+        // Show failure message
+        alert(`Sorry, ${restaurant} Restaurant is fully booked.`);
+      }
+    }
+
+    document.getElementById('reservationForm').addEventListener('submit', makeReservation);
+
+    // Assuming each restaurant has a maximum capacity of 50 seats
+    const maxCapacity = 50;
+    let alphaReservedSeats = 0;
+    let betaReservedSeats = 0;
+  </script>
 </body>
 </html>
